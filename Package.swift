@@ -7,7 +7,7 @@ let package = Package(
     name: "csd_proof",
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/felix91gr/Csdjournal/", from: "1.0.1")
+        .package(url: "https://github.com/felix91gr/Csdjournal/", from: "1.0.2")
         // .package(url: "../csd_journal_better/csd_journal/", from: "1.0.1")
     ],
     targets: [

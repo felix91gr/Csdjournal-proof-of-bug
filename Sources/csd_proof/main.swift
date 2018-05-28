@@ -11,6 +11,8 @@ csd_journal_print(LOG_NOTICE, #file, myLine, #function, "Notice: this is a notic
 csd_journal_print(LOG_INFO, #file, myLine, #function, "Here's some info.")
 csd_journal_print(LOG_DEBUG, #file, myLine, #function, "This is some debug stuffs")
 
+callFromOtherSource()
+
 // LOG_EMERG      system is unusable
 
 // LOG_ALERT      action must be taken immediately
